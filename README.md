@@ -1,4 +1,4 @@
-# Readme ![language](https://img.shields.io/badge/language-javascript-blue.svg)
+# Readme ![language](https://img.shields.io/badge/language-ruby-red.svg)
 
 > Readme boilerplate and generator
 
