@@ -4,8 +4,6 @@
 
 A `simple` :zap: fight game!
 
-![screencast](http://g.recordit.co/78kFuVbtZh.gif)
-
 
 ## :books: Table of Contents
 
