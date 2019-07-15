@@ -29,12 +29,6 @@ If you get an answer like this, it means that `Ruby` is installed and you may go
 ruby 2.5.1
 ```
 
-To confirm that you have `Yarn` installed you can run this command in your terminal:
-
-```sh
-yarn -v
-```
-
 If you get an answer like this, it means that `Yarn` is installed and you may go to the [next section](#then-install-the-readme-generator).
 
 ```sh
