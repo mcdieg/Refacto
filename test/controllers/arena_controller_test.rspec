@@ -1,0 +1,7 @@
+describe "test we touch the home page" do
+
+  it "touches the home page" do
+    visit '/'
+    expect(page).to have_content "Bienvenue"
+  end 
+end

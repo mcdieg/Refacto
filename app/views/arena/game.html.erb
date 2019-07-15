@@ -1,0 +1,15 @@
+<div class="jumbotron d-flex justify-content-center">
+<div>
+  <%= render 'shared/index', combattant: @combattant %>
+<div>
+  <div>
+    <p id="notice"><%= notice %></p>
+    <%= form_tag("/arena/victor", method: "get", class: "d-flex flex-column") do %>
+    <div class="p-1"> 
+      <%= label_tag(:id1, "Veuillez sélectionner les combattants:") %>
+    </div>
+      <%= select_tag :combattants_selectionnes, options_from_collection_for_select(@combattants, "id", "nom"), multiple: true %>
+      <%= submit_tag "Lancer le combat", class: "btn btn-primary my-3" %>
+    <% end %>
+  </div>
+</div>

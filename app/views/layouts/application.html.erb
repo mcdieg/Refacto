@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TODO</title>
+    <%= csrf_meta_tags %>
+    <%= action_cable_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav">
+            <li class="nav-item mr-auto">
+              <a class="nav-link " href="/">Captain Challenge</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/combattants">Combattants</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/arena/game">Arène</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>

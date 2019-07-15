@@ -1,0 +1,17 @@
+<div class="jumbotron d-flex justify-content-center">
+
+    <h1> <%= @victor.nom%> est vainqueur du combat !!!</h1>
+
+    <div>
+        <% @arr_rapport.each do |evenement| %> 
+            <%= evenement %>
+            <br />
+        <% end %>
+    </div>
+
+    <div>
+        <br />
+        <%= link_to "Nouveau jeu", 'game', class: "btn btn-primary" %>
+    </div>
+
+</div>

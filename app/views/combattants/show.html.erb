@@ -1,0 +1,17 @@
+<div class="jumbotron d-flex justify-content-center">
+  <p id="notice"><%= notice %></p>
+  <p>
+    <strong>Nom:</strong>
+    <%= @combattant.nom %>
+  </p>
+  <p>
+    <strong>Points de vie:</strong>
+    <%= @combattant.points_de_vie %>
+  </p>
+  <p>
+    <strong>Points d attaque:</strong>
+    <%= @combattant.points_d_attaque %>
+  </p>
+  <%= link_to 'Modifier', edit_combattant_path(@combattant) %> |
+  <%= link_to 'Précédent', combattants_path %>
+</div>
