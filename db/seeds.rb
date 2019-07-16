@@ -15,12 +15,14 @@ combattants_attributes = [
   {
     nom: "Iron Man",
     points_de_vie: 85,
-    points_d_attaque: 17 
+    points_d_attaque: 17,
+    xp: 0
   },
   {
     nom: "Surfer d'Argent",
     points_de_vie: 90,
-    points_d_attaque: 18 
+    points_d_attaque: 18,
+    xp: 0
   }
 ]
 

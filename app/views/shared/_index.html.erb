@@ -8,6 +8,7 @@
       <th>Nom</th>
       <th>Points de vie</th>
       <th>Points d attaque</th>
+      <th>XP</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,6 +19,7 @@
         <td><%= combattant.nom %></td>
         <td><%= combattant.points_de_vie %></td>
         <td><%= combattant.points_d_attaque %></td>
+        <td><%= combattant.xp %></td>
         <td><%= link_to 'Afficher', combattant %></td>
         <td><%= link_to 'Modifier', edit_combattant_path(combattant) %></td>
         <td><%= link_to 'Supprimer', combattant, method: :delete, data: { confirm: 'En êtes vous sûr ?' } %></td>

@@ -63,10 +63,11 @@ class ArenaController < ApplicationController
 
         # Le combattant avec le plus fort restant de points a gagné !!!
         if arr_p_vie[0] > arr_p_vie[1]
-          @victor = arr_combattants[0] 
+          @victor = arr_combattants[0]
         else
-          @victor = arr_combattants[1] 
+            @victor = arr_combattants[1] 
         end
+        @victor.update_attribute(:xp, @victor.xp += 10)
     end
 
     def victor
