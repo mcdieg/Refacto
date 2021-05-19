@@ -153,8 +153,10 @@ GEM
       method_source (~> 0.9.0)
       spoon (~> 0.0)
     public_suffix (3.0.3)
-    puma (3.9.1)
-    puma (3.9.1-java)
+    puma (4.3.8)
+      nio4r (~> 2.0)
+    puma (4.3.8-java)
+      nio4r (~> 2.0)
     rack (2.0.6)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -302,7 +304,7 @@ DEPENDENCIES
   minitest (= 5.10.3)
   minitest-reporters (= 1.1.14)
   overcommit
-  puma (= 3.9.1)
+  puma (= 4.3.8)
   rails (= 5.1.6)
   rails-controller-testing (= 1.0.2)
   rspec-rails
